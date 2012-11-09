@@ -372,7 +372,7 @@ void stateMachine(void)
 		}
 
 			
-			if (thermalCounter == 5000) //Using the PWM special event interrupt to increment every TMR1 period match (~20us) 5000*20uS ~= 100mS
+			if (thermalCounter == 50000) //Using the PWM special event interrupt to increment every TMR1 period match (~20us) 5000*20uS ~= 100mS
 			{
 				
 				/*Reduce the accumulator by the cool rate coef.*/
